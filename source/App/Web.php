@@ -11,7 +11,7 @@ class Web
 
     public function __construct() 
     {
-        $this->view = Engine::create(__DIR__ . "/../Views/template", "html");
+        $this->view = Engine::create(__DIR__ . "/../Views/template", "php");
 
     }
 
