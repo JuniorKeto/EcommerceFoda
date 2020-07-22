@@ -11,13 +11,13 @@ class Web
 
     public function __construct() 
     {
-        $this->view = Engine::create(__DIR__ . "/../Views/template", "html");
+        $this->view = Engine::create(__DIR__ . "/../Views/", "php");
 
     }
 
     public function main(): void
     {
-        echo $this->view->render("index");
+        echo $this->view->render("main");
     } 
 
 }

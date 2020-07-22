@@ -1,6 +1,8 @@
 <?php
 define("ROOT", "http://localhost/EcommerceFoda");
 
+define("CSS", "/source/Views/css/");
+
 /**
  * @param string|null $uri
  * @return string
