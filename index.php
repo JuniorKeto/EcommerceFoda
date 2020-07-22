@@ -6,12 +6,18 @@ use CoffeeCode\Router\Router;
 $router = new Router(ROOT);
 
 /**
+ * Namespace do Controller
+ */
+
+$router->namespace("Source\App");
+
+/**
  * Usuarios
  */
 
 $router->group(null);
-$router->get("/", function () {
-    echo "baj";
-});
+$router->get("/", "Web:main");
+
+$router->dispatch();
 
 

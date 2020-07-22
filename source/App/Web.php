@@ -15,9 +15,9 @@ class Web
 
     }
 
-    public function main($data): void
+    public function main(): void
     {
-        echo "Alou";
+        echo $this->view->render("index");
     } 
 
 }
