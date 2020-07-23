@@ -1,3 +1,3 @@
-# EcommerceFoda
+# Ecommerce Foda
 
 Ecommerce feito com php moderno 
