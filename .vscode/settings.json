@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "EcommerceFoda",
+            "driver": "MariaDB",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "maria_conn",
+            "password": "toor",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}
